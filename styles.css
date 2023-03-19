@@ -1,0 +1,55 @@
+body {
+    font-family: 'Noto Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: #ffffff;
+    background-color: #383472;
+    font-weight: bold;
+}
+
+div {
+    margin: 1px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: baseline;
+}
+
+.next-arrivals-display {
+    border: solid;
+}
+
+.route-number {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #383472;
+    color: #ffffff;
+}
+
+table {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.next-departure {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.destination {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.departure-times {
+    font-size: x-large;
+}
